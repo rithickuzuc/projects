@@ -1,0 +1,96 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d9f3cb;
+}
+
+/* Container for the Authentication Box */
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #d9f7c4, #eefbe6); /* Optional: Background gradient */
+}
+
+/* Styles for the Authentication Box */
+.auth-box {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 700px;
+    height: 200px;
+
+    max-width: 90%;
+    justify-content: center;
+}
+
+/* Chart Image Styling 
+.chart-image {
+    width: 50%;
+    background: url('logo192.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Container for the Form */
+.form-container {
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Form Heading */
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input Fields Styling */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Sign Up Button Styling */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Paragraph and Link Styles */
+.form-container p {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+/* Link Styling */
+.form-container a {
+    color: #35e13b;
+    text-decoration: none;
+}
+
+/* Link Hover Effect */
+.form-container a:hover {
+    text-decoration: underline;
+}
+.form{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
